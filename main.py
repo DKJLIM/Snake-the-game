@@ -4,6 +4,7 @@ import time
 import Food
 import random
 import score
+
     # screen setup
 screen = turtle.Screen()
 width = 600
@@ -17,9 +18,6 @@ screen.tracer(0)
 snakie = snake.Snake()
 food_bit = Food.Food()
 scoreboard=score.Scoreboard()
-
-
-##additional commentary 
 
 
 game_is_going = True
