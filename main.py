@@ -18,6 +18,10 @@ snakie = snake.Snake()
 food_bit = Food.Food()
 scoreboard=score.Scoreboard()
 
+
+##additional commentary 
+
+
 game_is_going = True
 while game_is_going:
     screen.update()
